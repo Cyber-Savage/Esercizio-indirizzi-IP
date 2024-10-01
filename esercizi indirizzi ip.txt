@@ -1,0 +1,64 @@
+Esercizi S1/L2:
+
+Luca Calvigioni
+
+128.1.6.5/12 (classe B)   255.240.0.0
+11111111.11110000.00000000.00000000
+(0x2°0)+(0x2°1)+(0x2°2)+(0x2°3)+(1x2°4)+(1x2°5)+(1x2°6)+(1x2°7)= 16+32+64+128=240
+256-240=16
+IP network: 128.0.0.0
+IP gateway: 128.0.0.1
+IP broadcast:128.15.255.255
+ottetti per network:  12bit
+ottetti per host:  20bit
+
+
+200.1.2.3/24 (classe C)   255.255.255.0
+11111111.11111111.11111111.00000000
+IP network: 200.1.2.0
+IP gateway: 200.1.2.1
+IP broadcast: 200.1.2.255
+ottetti per network: 24bit
+ottetti per host: 8 bit
+
+
+192.192.1.1/22 (classe C)    255.255.252.0
+11111111.11111111.11111100.00000000
+(0x2°0)+(0x2°1)+(1x2°2)+(1x2°3)+(1x2°4)+(1x2°5)+(1x2°6)+(1x2°7)=
+4+8+16+32+64+128=252
+256-252=4
+IP network: 192.192.1.0
+IP gateway: 192.192.1.1
+IP broadcast 192.192.0.255
+ottetti network 22bit
+ottetti host 10bit
+
+
+
+126.5.4.3/9 (classe A) 255.128.0.0
+11111111.10000000.00000000.00000000
+256-128=128
+IP network: 126.0.0.0
+IP gateway: 126.0.0.1
+IP broadcast: 126.127.255.255
+ottetti network: 9 bit
+ottetti host: 23 bit
+
+
+200.1.9.8/24 (classe C) 255.255.255.0
+11111111.11111111.11111111.00000000
+IP network: 200.1.9.0
+IP gateway: 200.1.9.1
+IP broadcast: 200.1.9.255
+ottetti per network: 24bit
+ottetti per host: 8bit
+
+
+
+172.16.0.4/16 (classe B) 255.255.0.0
+11111111.11111111.00000000.00000000
+IP network: 172.16.0.0
+IP gateway: 172.16.0.1
+IP broadcast: 172.16.255.255
+ottetti per network: 16bit
+ottetti per host: 16bit
